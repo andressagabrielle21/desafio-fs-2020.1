@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cadastro</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale">
+		<link rel="stylesheet" type="text/css" href="css/style-cadastro.css">
+		<link rel="stylesheet" type="text/css" href="lib/mdb/css/mdb.css">
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css">
+	</head>
+	<body>
+
+		<header>
+			<!--Barra de navegação fixa-->
+			<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+			  <!-- Navbar brand -->
+			  <img src="imagens/bootstrap.png" width="30px" height="30px"> <a class="navbar-brand" href="login.html">Teste</a>
+
+			  <!-- Collapse button -->
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+			    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <!-- Collapsible content -->
+			  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+			    <!-- Links -->
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item">
+			        <a class="nav-link" href="login.html">Início
+			          <span class="sr-only">(current)</span>
+			        </a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Contato</a>
+			      </li>
+
+			      <!-- Dropdown -->
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+			          aria-haspopup="true" aria-expanded="false">Outros</a>
+			        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+			          <a class="dropdown-item" href="#">Action</a>
+			          <a class="dropdown-item" href="#">Another action</a>
+			          <a class="dropdown-item" href="#">Something else here</a>
+			        </div>
+			      </li>
+
+			    </ul>
+			    <!-- Links -->
+
+			    <form class="form-inline">
+			      <div class="md-form my-0">
+			        <input class="form-control mr-sm-2" type="text" placeholder="Pesquise aqui" aria-label="Search">
+			      </div>
+			    </form>
+			  </div>
+			  <!-- Collapsible content -->
+
+			</nav>
+			<!--/.Navbar-->
+		</header>
+
+
+		<br> <br> 	
+		
+		<section>
+			<!-- Formulário -->
+			<form>
+				<p class="h4 mb-4">CADASTRE-SE</p>
+				  <div class="form-row">
+				    <div class="form-group col-md-5">
+				      <label for="inputEmail4">Nome</label>
+				      <input type="names" class="form-control" id="inputEmail4" placeholder="Nome">
+				    </div>
+				    <div class="form-group col-md-5">
+				      <label for="inputEmail4">Sobrenome</label>
+				      <input type="name" class="form-control" id="inputEmail4" placeholder="Sobrenome">
+				    </div>
+				  </div>
+				  <div class="form-row">
+				  	<div class="form-group col-md-6">
+					    <label for="inputAddress">Endereço</label>
+					    <input type="text" class="form-control" id="inputAddress" placeholder="">
+					 </div>
+					<div class="form-group col-md-2">
+						<label for="inputAddress2">Complemento</label>
+					    <input type="text" class="form-control" id="inputAddress2" placeholder="Casa ou apartamento">
+				  	</div>
+				  	<div class="form-group col-md-1">
+						<label for="inputAddress2">Número</label>
+					    <input type="text" class="form-control" id="inputAddress3" placeholder="Número">
+				  	</div>
+				  </div>
+				  <div class="form-row">
+				    <div class="form-group col-md-4">
+				      <label for="inputCity">Cidade</label>
+				      <input type="text" class="form-control" id="inputCity">
+				    </div>
+				    <div class="form-group col-md-3">
+				      <label for="inputState">Estado</label>
+				      <select id="inputState" class="form-control">
+				        <option selected>Escolha...</option>
+				        <option>...</option>
+				      </select>
+				    </div>
+				    <div class="form-group col-md-2">
+				      <label for="inputZip">CEP</label>
+				      <input type="text" class="form-control" id="inputZip">
+				    </div>
+				  </div>
+				  
+				  <br>
+
+				  <button type="submit" class="btn btn-success btn-lg">Cadastrar</button>
+			</form>
+		</section>
+
+
+		<footer class="page-footer font-small">
+
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3">© 2020 Copyright:
+			<a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+			</div>
+			<!-- Copyright -->
+
+		</footer>
+	</body>
+</html>
